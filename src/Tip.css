@@ -1,0 +1,77 @@
+/* tip text ctyles */
+.select_tip{
+    width: 140px;
+    color: #5E7A7D;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 20px;
+    margin-top: 32px;
+
+
+}
+
+
+.tip_container {
+    display: flex;
+    background-color:#FFFFFF ;
+    padding: 0px;
+
+}
+
+  /* First column styles */
+  .column {
+    flex: 1;
+    padding: 16px;
+    border: 1px solid #ccc;
+    background-color: #00474B;
+    color: #FFF;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #00474B;
+    padding: 0px;
+    width: 146.631px;
+    height: 48px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-left: 31px;
+
+  }
+
+.first{
+    margin-right: 16.56px ;
+}
+
+.white {
+    margin: 0px;
+    padding: 0px;
+    margin-right: -33.8px;
+}
+
+
+  /* Input field style */
+  .input-field {
+    border-radius: 4px;
+    padding: 0px;
+    width: 146.631px;
+    height: 48px;
+    border: 0px;
+    background: #F3F9FA;
+    color:#00474B ;
+  }
+  
+  .column:hover {
+    background-color: #26C2AE;
+  }
+

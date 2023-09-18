@@ -2,6 +2,9 @@ import "./Header.css"
 
 export function Header() {
     return (
-        <h1 className="first_header">S P L I<br/>T T E R</h1>
+ 
+        <div className="first_header">
+            <img className="header_" src="/SPLITTER.svg" alt="Header" />
+        </div>
     )
 }

@@ -1,3 +1,11 @@
-.first_header{
-    color: rgb(68, 122, 102)
-}
+.header_{
+    width: 86.664px;
+    height: 53.136px;
+    fill: #3D6666;
+
+  }
+
+.first_header {
+    margin-top: 50px;
+    margin-bottom: 40px;
+} 

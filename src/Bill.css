@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@700&family=Space+Mono:wght@700&display=swap');
+
 .bill{
     display : flex;
     justify-content: flex-start;
-    margin-left: 10px;
+    width: 47px;
+    margin-left: 32px;
+    margin-top: 32px;
     color: rgb(68, 122, 102);
+    color: #5E7A7D;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .Bill_{
@@ -12,16 +22,29 @@
     
 }
 .input_{
-    height: 35px;
-    width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 311px;
+    height: 48px;
+    flex-shrink: 0;
+    margin-left: 32px;
+    margin-right: 32px;
     border-radius: 4px;
-    margin: 0px;
     border: 0px;
     padding: 0px;
-    background-color: rgb(213, 219, 211);
+    border-radius: 5px;
+    background: #F3F9FA;
+
 }
+
+.input_ {
+    color: #00474B;
+    text-align: right;
+    font-family: "Space Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 
 
 .input-with-logo {
@@ -32,6 +55,6 @@
 .svg-placeholder{
     position: absolute;
     z-index: 1;
-    margin-top: 9px;
-    margin-left: 6px;
+    margin-top: 15px;
+    margin-left: 51px;
 }

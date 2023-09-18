@@ -30,7 +30,7 @@ export function Bill() {
         <div className='bill_'>
             <h2 className="bill">Bill </h2>
             <div className="input-with-logo">
-                <input  className='input_' type="text" required={true} onClick={handleInputClick} />
+                <input className='input_' type="text" required={true} onClick={handleInputClick} />
                 <div className='svg-placeholder'>
                     {showPlaceholder && <img src="/icon-dollar.svg" alt="Dollar Icon" />}
                 </div>

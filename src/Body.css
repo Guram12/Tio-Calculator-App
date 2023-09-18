@@ -11,9 +11,17 @@
     border-radius: 25px 25px 0px 0px;
     background: #FFF;
     box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.20);
-    padding: 20px;
+  
     width: 375px;
     text-align: center;
 }
 
 
+.people_number{
+    left: 0px;
+    width: 311px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F3F9FA;
+}

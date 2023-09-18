@@ -5,6 +5,15 @@ import './People.css'
 
 export function People() {
     const [showPlaceholder , setShowPlaceholder] = useState(true);
+    const [numberOfPeople   , setNumberOfPeople] = useState('');
+
+
+    const handleInputChange = (event) => {
+        const newNumberOfPeople = event.target.value ;
+        setNumberOfPeople(newNumberOfPeople)
+        console.log(newNumberOfPeople)
+    }
+
 
     const hendleInputClick = () => {
         console.log('clicked')
@@ -29,12 +38,17 @@ export function People() {
     }, []);
 
    
-
     return (
         <div className='people'>
             <h2 className='people_h2'>Number of People</h2>
             <div className='relative'>
-                <input className='people_number' type='text' required={true} onClick={hendleInputClick}/>
+                <input className='people_number'
+                    type='text'
+                    required={true}
+                    onClick={hendleInputClick}
+                    value={numberOfPeople}
+                    onChange={handleInputChange}
+                   />
                 {showPlaceholder && <img className='person_icon' src="/icon-person.svg" alt="Person Icon" />}
             </div>
         </div>

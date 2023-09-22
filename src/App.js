@@ -1,15 +1,23 @@
-
-import './App.css';
 import {Header} from "./Header"
-import {Body} from "./Body"
-
+import { Bill } from './Bill';
+import { Tip } from './Tip';
+import { People } from './People';
+import { Result } from './Result';
+import './App.css';
 
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Body />
+      <div className="center-container">
+      <div className="centered-element">
+        <Bill />
+        <Tip />
+        <People />
+        <Result/>
+      </div>
+    </div>
     </div>
   );
 }

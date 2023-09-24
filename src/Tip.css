@@ -1,3 +1,4 @@
+@media screen and (max-width: 768px) {
 /* tip text ctyles */
 .select_tip{
     width: 140px;
@@ -74,4 +75,94 @@
   .column:hover {
     background-color: #26C2AE;
   }
+
+}
+
+@media screen and (min-width: 768px) {
+  .select_tip{
+    width: 140px;
+    color: #5E7A7D;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 20px;
+    margin-top: 32px;
+}
+ 
+.firstRaw{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+
+}
+
+.firstRaw :hover {
+  background: #26C2AE ;
+}
+
+
+
+.raw1 {
+  display: flex;
+  justify-content: flex-start;
+  height: 88px;
+  width: 379;
+  gap: 14px;
+  margin-left: 32px;
+  color: #FFF;
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }
+
+.first {
+  display: inline-block;
+  width: 117px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #00474B;
+}
+
+
+/* second raww */
+
+
+.raw2 {
+  display: flex;
+  justify-content: flex-start;
+  height: 88px;
+  width: 379;
+  gap: 14px;
+  margin-left: 32px;
+  color: #FFF;
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }
+
+
+.second{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  display: inline-block;
+  width: 117px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #00474B;
+}
+
+}
 

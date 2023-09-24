@@ -1,6 +1,7 @@
 import React from 'react';
 import './Tip.css';
 
+
 export function Tip({ tipPercentage, setTipPercentage }) {
   // Function to handle tip percentage input changes
   const handleTipPercentageChange = (e) => {
@@ -19,16 +20,16 @@ export function Tip({ tipPercentage, setTipPercentage }) {
       <h2 className='select_tip'>Select Tip %</h2>
 
       <div className='tip_container'>
-        <div className='white'>
-          <div className='column first' onClick={() => handleTipOptionClick(5)}>5%</div>
-          <div className='column first' onClick={() => handleTipOptionClick(10)}>10%</div>
-          <div className='column first' onClick={() => handleTipOptionClick(15)}>15%</div>
+        <div className='white raw1'>
+          <div className='column first firstRaw' onClick={() => handleTipOptionClick(5)}>5%</div>
+          <div className='column first firstRaw' onClick={() => handleTipOptionClick(10)}>10%</div>
+          <div className='column first firstRaw' onClick={() => handleTipOptionClick(15)}>15%</div>
         </div>
-        <div className='white'>
-          <div className='column second' onClick={() => handleTipOptionClick(25)}>25%</div>
-          <div className='column second' onClick={() => handleTipOptionClick(50)}>50%</div>
+        <div className='white raw2'>
+          <div className='column second secondraw' onClick={() => handleTipOptionClick(25)}>25%</div>
+          <div className='column second secondraw' onClick={() => handleTipOptionClick(50)}>50%</div>
           <input
-            className="input-field column"
+            className="input-field column secondraw"
             type='text'
             placeholder="Custom"
             value={tipPercentage} // Set the input value to the tip percentage state

@@ -1,3 +1,4 @@
+@media screen and (max-width: 768px) {
 .App {
   margin-right: auto;
   margin-left: auto;
@@ -50,4 +51,66 @@
   margin-top: 33px;
   border: 0px;
   cursor: pointer;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .App {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  
+  
+  .center-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  
+  
+  .centered-element {
+    width: 920px;
+    height: 481px;
+    flex-shrink: 0;
+    border-radius: 25px 25px 25px 25px;
+    background: #FFF;
+    box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.20);
+    text-align: center;
+  }
+  
+  
+  .people_number{
+    left: 0px;
+    width: 311px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F3F9FA;
+  }
+  
+  .button {
+    width: 281px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #26C2AE;
+    color: #00474B;
+    color: #00474B;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 33px;
+    border: 0px;
+    cursor: pointer;
+  }
+
+
+
 }

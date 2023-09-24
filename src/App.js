@@ -1,11 +1,12 @@
 // In App.js
 import React, { useState } from 'react';
-import './App.css';
 import { Header } from './Header';
+
 import { Bill } from './Bill';
 import { Tip } from './Tip';
 import { People } from './People';
 import { Result } from './Result';
+import './App.css';
 
 function App() {
   const [billAmount, setBillAmount] = useState('');

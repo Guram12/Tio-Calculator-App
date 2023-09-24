@@ -107,3 +107,7 @@
     border: 0px;
     cursor: pointer;
 }
+
+.button:hover {
+    background: #0D686D;
+}

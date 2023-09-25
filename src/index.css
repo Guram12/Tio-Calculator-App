@@ -1,4 +1,8 @@
 body {
+  display: flex;
   margin: 0;
-  background-color:#C5E4E7;
+  background-color: #C5E4E7;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh; 
 }

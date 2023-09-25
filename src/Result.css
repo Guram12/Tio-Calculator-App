@@ -1,3 +1,4 @@
+@media screen and (max-width: 768px) {
 .result {
     width: 327px;
     height: 257px;
@@ -89,7 +90,7 @@
 
 /* reset button */
 
-.button {
+.reset {
     width: 281px;
     height: 48px;
     flex-shrink: 0;
@@ -110,4 +111,107 @@
 
 .button:hover {
     background: #0D686D;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .result {
+        margin-left: 16px;
+        width: 413px;
+        height: 417px;
+        flex-shrink: 0;
+        border-radius: 15px;
+        background: #00474B;
+        margin-left: 24px ;
+        
+    }
+
+    .tip_amount{
+        color: #FFF;
+        font-family: Space Mono;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 2px;
+    }
+    
+    .every_person{
+        color: #7F9D9F;
+        font-family: Space Mono;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0px;
+    }
+    
+    .little_cont{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 333px;
+        height: 48px;
+        padding-top: 40px;
+        margin-left: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .only_total{
+        margin-top: 25px;
+        left: 0%;
+    }
+    
+    /* Results  */
+    
+    .first_result{
+    
+        color: #26C2AE;
+        text-align: right;
+        font-family: Space Mono;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -1px;
+    
+    }
+    
+    .second_result{
+        color: #26C2AE;
+        text-align: right;
+        font-family: Space Mono;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -1px;
+    }
+    
+    /* reset button */
+    
+    .reset {
+        box-sizing: border-box;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #9FE8DF;
+        color: #00474B;
+        text-align: center;
+        font-family: Space Mono;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 33px;
+        border: 0px;
+        cursor: pointer;
+        width: 333px;
+        margin-top: 95px;
+    }
+
+    .reset:hover{
+        background: #0D686D;
+    }
 }

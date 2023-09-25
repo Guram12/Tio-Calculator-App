@@ -104,11 +104,10 @@
 }
 
 
-
 .raw1 {
   display: flex;
   justify-content: flex-start;
-  height: 88px;
+  height: 69px;
   width: 379;
   gap: 14px;
   margin-left: 32px;
@@ -163,6 +162,30 @@
   border-radius: 5px;
   background: #00474B;
 }
+
+.costum_input{
+  width: 109px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 2px solid #F3F9FA;
+  background: #F3F9FA;
+  text-align: right;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+  color: #00474B;
+  padding-right: 2px;
+  
+  }
+
+  .column:hover{
+    background: #9FE8DF;
+  }
+
 
 }
 

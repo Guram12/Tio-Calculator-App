@@ -29,9 +29,9 @@ export function Tip({ tipPercentage, setTipPercentage }) {
           <div className='column second secondraw' onClick={() => handleTipOptionClick(25)}>25%</div>
           <div className='column second secondraw' onClick={() => handleTipOptionClick(50)}>50%</div>
           <input
-            className="input-field column secondraw"
+            className="input-field column costum_input"
             type='text'
-            placeholder="Custom"
+            placeholder="Custom "
             value={tipPercentage} // Set the input value to the tip percentage state
             onChange={handleTipPercentageChange} // Handle input changes
           />

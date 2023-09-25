@@ -37,27 +37,33 @@ export function Result({ billAmount, tipPercentage, numberOfPeople, resetValues 
   return (
     <div className='result'>
       <div className='little_cont'>
-        <div>
-          <h2 className='tip_amount'>Tip amount</h2>
-          <p className='every_person'>/ person</p>
-        </div>
-        {/* Display the calculated tip amount per person */}
-        <div>
-          <h1 className='first_result'>$ {tipAmountPerPerson.toFixed(2)}</h1>
-        </div>
+            <div>
+              
+              <h2 className='tip_amount'>Tip amount</h2>
+              <p className='every_person'>/ person</p>
+            </div>
+
+            {/* Display the calculated tip amount per person */}
+            <div>
+              <h1 className='first_result'>$ {tipAmountPerPerson.toFixed(2)}</h1>
+      </div>
+
       </div>
       <div className='little_cont'>
-        <div>
-          <h2 className='tip_amount only_total'>Total</h2>
-          <p className='error'>/ person</p>
-        </div>
-        {/* Display the calculated total amount per person */}
-        <div>
-          <h1 className='second_result'>$ {totalPerPerson.toFixed(2)}</h1>
-        </div>
+
+            <div>
+              <h2 className='tip_amount only_total'>Total</h2>
+              <p className='every_person'>/ person</p>
+            </div>
+
+            {/* Display the calculated total amount per person */}
+            <div >
+              <h1 className='second_result'>$ {totalPerPerson.toFixed(2)}</h1>
+            </div>
+        
       </div>
       {/* reset button */}
-      <button className='button' onClick={handleReset}>RESET</button>
+      <button className='reset' onClick={handleReset}>RESET</button>
     </div>
   );
 }

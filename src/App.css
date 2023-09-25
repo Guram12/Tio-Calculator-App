@@ -3,6 +3,7 @@
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  
 }
 
 
@@ -15,6 +16,8 @@
 
 
 .centered-element {
+  display: inline-block;
+  
   height: 789px;
   border-radius: 25px 25px 0px 0px;
   background: #FFF;
@@ -73,6 +76,8 @@
   
   
   .centered-element {
+    display: flex;
+    align-items: center;
     width: 920px;
     height: 481px;
     flex-shrink: 0;
@@ -82,23 +87,13 @@
     text-align: center;
   }
   
-  
-  .people_number{
-    left: 0px;
-    width: 311px;
-    height: 48px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    background: #F3F9FA;
-  }
-  
+
   .button {
     width: 281px;
     height: 48px;
     flex-shrink: 0;
     border-radius: 5px;
     background: #26C2AE;
-    color: #00474B;
     color: #00474B;
     text-align: center;
     font-family: Space Mono;
@@ -111,6 +106,12 @@
     cursor: pointer;
   }
 
-
+/* main div */
+  .second_main_div{
+    display: flex; /* Use flexbox to center vertically and horizontally */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh;
+  }
 
 }

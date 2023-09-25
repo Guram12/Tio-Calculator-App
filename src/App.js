@@ -23,17 +23,24 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <div className='main_header'>
+          <Header />
+      </div>
+      
       <div className="center-container">
         <div className="centered-element">
-          <Bill billAmount={billAmount} setBillAmount={setBillAmount} />
-          <Tip tipPercentage={tipPercentage} setTipPercentage={setTipPercentage} />
-          <People numberOfPeople={numberOfPeople} setNumberOfPeople={setNumberOfPeople} />
-          <Result billAmount={billAmount} 
-                  tipPercentage={tipPercentage}
-                  numberOfPeople={numberOfPeople} 
-                  resetValues={resetValues}
+            <div className='first_main_div'>
+                <Bill billAmount={billAmount} setBillAmount={setBillAmount} />
+                <Tip tipPercentage={tipPercentage} setTipPercentage={setTipPercentage} />
+                <People numberOfPeople={numberOfPeople} setNumberOfPeople={setNumberOfPeople} />
+            </div>
+            <div className='second_main_div'>
+                <Result billAmount={billAmount} 
+                        tipPercentage={tipPercentage}
+                        numberOfPeople={numberOfPeople} 
+                        resetValues={resetValues}
                   />
+            </div>
         </div>
       </div>
     </div>

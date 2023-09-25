@@ -1,3 +1,4 @@
+@media screen and (max-width: 768px) {
 .people_h2{
     width: 186px;
     color: #5E7A7D;
@@ -44,4 +45,56 @@
     left: 49px;
     top: 16px;
     z-index: 1;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+    .people{
+        width: 380px;
+        margin-right: 0px;
+        margin-bottom: 48px ;
+    }
+    .people_h2{
+        width: 186px;
+        color: #5E7A7D;
+        font-family: Space Mono;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 0px;
+        margin-left: 16px;
+    }
+    .people_number{
+        box-sizing: border-box; 
+        width: 379px;
+        height: 48px;
+        flex-shrink: 0;
+        margin-left: 32px;
+        
+        border-radius: 4px;
+        border: 0px;
+        padding: 0px;
+        border-radius: 5px;
+        background: #F3F9FA;
+        color: #00474B;
+        text-align: right;
+        font-family: "Space Mono";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .relative{
+        position: relative;
+        width: 379px;
+    }
+    .person_icon{
+        position: absolute;
+        left: 49px;
+        top: 16px;
+        z-index: 1;
+    }
 }

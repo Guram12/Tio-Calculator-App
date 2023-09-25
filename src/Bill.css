@@ -2,7 +2,8 @@
 
 @media screen and (max-width: 768px) {
 .bill{
-    display : flex;
+    display: inline-block;
+    vertical-align: top; 
     justify-content: flex-start;
     width: 47px;
     margin-left: 32px;
@@ -44,6 +45,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    
 }
 
 
@@ -57,7 +59,7 @@
 .svg-placeholder{
     position: absolute;
     z-index: 1;
-    margin-top: 15px;
+    margin-top: -33px;
     margin-left: 51px;
 }
 
